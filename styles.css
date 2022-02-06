@@ -3,5 +3,6 @@
 }
 
 p {
-  font-color: yellow; 
+  background-color: yellow;
+  color: green;
 }
