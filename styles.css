@@ -8,12 +8,10 @@ body {
 
 .navbar {
     display: flex;
-    margin: 10px;
     background-color: #00d196;
 }
 
 .navopt {
-    float: left;
     padding: 15px;
     font-family:'Courier New', Courier, monospace;
     font-size: 200%;
