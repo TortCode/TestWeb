@@ -9,8 +9,10 @@ function request(url, handler) {
     req.send(null);
 }
 
-window.addEventListener('DOMContentLoaded', function () {
-    request('about_me.html', function(response) {
+function load(page) {
+    request('snippets/' + page + '.html', function(response) {
         document.getElementById("stage").innerHTML = response;
     });
-});
+}
+
+window.addEventListener('DOMContentLoaded', function () {load('about_me')});
