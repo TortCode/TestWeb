@@ -4,13 +4,15 @@
 
 body {
     margin: 0;
+    background-color: #ffffff;
+    color: #333333;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .navbar {
     width: 100%;
     top: 0;
-    position: fixed;
+    position: sticky;
     display: flex;
     background-color: #00d196;
 }
@@ -38,4 +40,14 @@ body {
     min-height: 1000px;
     background-repeat: repeat;
     background-attachment: fixed;
+}
+
+.project {
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid #70d2e4;
+}
+
+.project > h1 {
+    font-weight: normal;
 }
