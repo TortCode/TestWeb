@@ -4,8 +4,8 @@
 
 body {
     margin: 0;
-    background-color: #ffffff;
-    color: #333333;
+    background-color: #eeeeee;
+    color: #444444;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -14,18 +14,21 @@ body {
     top: 0;
     position: sticky;
     display: flex;
-    background-color: #00d196;
+    background-color: #00d196a0;
 }
 
 .navopt {
     border: none;
-    background-color: inherit;
+    background-color: #00000000;
     padding: 15px;
+    margin: 5px;
     font-size: 200%;
 }
 
 .navopt:hover {
-    background-color: #009269;
+    background-color: #00d19650;
+    padding: 13px;
+    border: 2px solid #00d196a0;
 }
 #pic1 {
     background-image: url(imgs/cube.jpeg);
@@ -43,11 +46,28 @@ body {
 }
 
 .project {
+    background-color: #70d2e410;
     padding: 10px;
     margin: 15px;
-    border: 2px solid #70d2e4;
+    border: 3px solid #70d2e440;
 }
 
 .project > h1 {
-    font-weight: normal;
+    font-weight: 600;
+}
+
+.github-link {
+    /* float: left; */
+    padding: 5px;
+    padding-right: 0;
+    /* border: solid black 5px; */
+}
+
+.github-link img {
+    float: right;
+    vertical-align: -70%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #00000011;
+    border: solid #00000088 3px;
 }
