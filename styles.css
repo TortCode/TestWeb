@@ -12,8 +12,9 @@ body {
 .navbar {
     width: 100%;
     top: 0;
+    height: auto;
+    overflow: hidden;
     position: sticky;
-    display: flex;
     background-color: #00d196a0;
 }
 
@@ -26,9 +27,9 @@ body {
 }
 
 .navopt:hover {
-    background-color: #00d19650;
-    padding: 13px;
-    border: 2px solid #00d196a0;
+    background-color: #00d19630;
+    margin: -1px 4px;
+    border: 1px solid #00d196f0;
 }
 #pic1 {
     background-image: url(imgs/cube.jpeg);
@@ -46,10 +47,12 @@ body {
 }
 
 .project {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #70d2e410;
     padding: 10px;
     margin: 15px;
     border: 3px solid #70d2e440;
+    overflow: auto;
 }
 
 .project > h1 {
@@ -57,16 +60,18 @@ body {
 }
 
 .github-link {
-    /* float: left; */
+    float: right;
     padding: 5px;
-    padding-right: 0;
-    /* border: solid black 5px; */
+    margin: 5px;
+}
+
+.github-link p {
+    font-family: Courier, monospace;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .github-link img {
-    float: right;
-    vertical-align: -70%;
-    margin-top: 10px;
     padding: 10px;
     background-color: #00000011;
     border: solid #00000088 3px;
